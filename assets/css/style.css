@@ -40,3 +40,15 @@ form button {
     display: inline-block;
     margin: 1rem;
 }
+
+#buttonList button {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 5px 0px;
+    text-align: center;
+    background-color: darkblue;
+}
+
+#city-display p {
+    margin-top: 10px;
+}
