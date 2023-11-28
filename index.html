@@ -26,18 +26,19 @@
             <form action="">
                 <h4>Search for a City:</h4>
                 <input type="text" id="city_name" placeholder="Scottsdale">
-                <button class="waves-effect waves-light btn">Search</button>
+                <button id="searchBtn" class="waves-effect waves-light btn">Search</button>
 
             </form>
-            <div id="buttonList" class="light-blue">
-                hi
+            <div id="buttonList">
+
             </div>
 
         </div>
         <div class="col s12 m8 ">
             <!-- display content  -->
             <div id="city-display" class="light-gray-border padding-5">
-                <h4>Atlanta <span id="current-date"></span></h4>
+                <h4 id="city_display_rt">City</h4>
+                <p id="current-date">date</p>
                 <h6>Temp: <span id="temp"></span></h6>
                 <h6>Wind: <span id="wind"></span></h6>
                 <h6>Humidity: <span id="humidity"></span></h6>
@@ -72,6 +73,10 @@
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+        integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U=" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
