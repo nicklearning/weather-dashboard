@@ -3,10 +3,17 @@
 }
 
 /* CSS Reset */
-body, h1, h2, h3, h4, p, ul, li {
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li {
     margin: 0;
     padding: 0;
-  }
+}
 
 .padding-5 {
     padding: 5px 0px;
@@ -20,11 +27,12 @@ form button {
 ::placeholder {
     color: gray;
     opacity: 1;
-} 
+}
 
-::-ms-input-placeholder { /* Edge 12 -18 */
+::-ms-input-placeholder {
+    /* Edge 12 -18 */
     color: gray;
-  }
+}
 
 #city-display {
     margin-top: 20px;
@@ -35,10 +43,13 @@ form button {
     border: 2px solid gray;
 }
 
+/* wrap words in the card */
 .custom-card {
-    width: 18%;
-    display: inline-block;
+    width: 15%;
+    display: inline;
     margin: 1rem;
+    font-size: 2vw;
+    word-wrap: break-word; 
 }
 
 #buttonList button {
@@ -55,5 +66,19 @@ form button {
 
 .icon-div {
     display: flex;
-    
+
+}
+
+#five-Day-Forecast {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h4 {
+    font-weight:600;
+}
+
+#clear {
+    display: none;
+    margin-top: 50px;
 }
