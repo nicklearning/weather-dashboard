@@ -52,3 +52,8 @@ form button {
 #city-display p {
     margin-top: 10px;
 }
+
+.icon-div {
+    display: flex;
+    
+}
