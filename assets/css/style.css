@@ -49,7 +49,7 @@ form button {
     display: inline;
     margin: 1rem;
     font-size: 2vw;
-    word-wrap: break-word; 
+    word-wrap: break-word;
 }
 
 #buttonList button {
@@ -75,10 +75,33 @@ form button {
 }
 
 h4 {
-    font-weight:600;
+    font-weight: 600;
 }
 
 #clear {
     display: none;
     margin-top: 50px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    #five-Day-Forecast {
+        flex-direction: column;
+    }
+
+    .custom-card {
+        width: 75%;
+        margin: 50px; auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #five-Day-Forecast {
+        flex-direction: column;
+    }
+
+    .custom-card {
+        width: 75%;
+        margin: 50px; auto;
+    }
 }
