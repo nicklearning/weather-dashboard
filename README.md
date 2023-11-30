@@ -7,11 +7,8 @@ This is a weather dashbaord that displays the current weather and the weather in
 ## Usage
 To use this application, navigate to this URL and search for a city.
 
-## API's Used
-
-1. [Search By City](http://api.openweathermap.org/geo/1.0/direct?q={city name},{state code},{country code}&limit={limit}&appid={API key})
-2. [Search for 5 Day Forecast with Coordinates](api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key})
-3. [Search for Current Weather with Coordinates](http://api.openweathermap.org/geo/1.0/reverse?lat={lat}&lon={lon}&limit={limit}&appid={API key})
+## API's 
+The API's used for this weather dashboard are the property of OpenWeather. To use their API's, follow this link. (OpenWeather API)[https://openweathermap.org/api]
 
 ## Screenshot
 ![weather dashboard](./assets/images/weather-dashboard.PNG)
