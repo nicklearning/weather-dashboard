@@ -8,7 +8,7 @@ This is a weather dashbaord that displays the current weather and the weather in
 To use this application, navigate to this URL and search for a city.
 
 ## API's 
-The API's used for this weather dashboard are the property of OpenWeather. To use their API's, follow this link. (OpenWeather API)[https://openweathermap.org/api]
+The API's used for this weather dashboard are the property of OpenWeather. To use their API's, follow this link. [OpenWeather API](https://openweathermap.org/api.h)
 
 ## Screenshot
 ![weather dashboard](./assets/images/weather-dashboard.PNG)
